@@ -1,13 +1,9 @@
 services:
   # Static Site
-  - type: web
+  - type: static_site
     name: bravo-dispatch
-    env: static
     buildCommand: npm run build
     staticPublishPath: ./dist
-    routes:
-      - route: /*/*
-        directory: /
     envVars:
       - key: NODE_VERSION
         value: 18
