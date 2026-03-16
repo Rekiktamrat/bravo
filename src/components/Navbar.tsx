@@ -23,9 +23,9 @@ const Navbar = () => {
               <Phone className="h-3.5 w-3.5" />
               <span className="hidden sm:inline">+1 (302) 204-8440</span>
             </a>
-            <a href="mailto:info@exact-dispatcher.com" className="flex items-center gap-1.5 hover:text-accent transition-colors duration-200">
+            <a href="mailto:info@bravo-dispatch.com" className="flex items-center gap-1.5 hover:text-accent transition-colors duration-200">
               <Mail className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">info@exact-dispatcher.com</span>
+              <span className="hidden sm:inline">info@bravo-dispatch.com</span>
             </a>
           </div>
           <div className="flex items-center gap-3">
@@ -46,7 +46,7 @@ const Navbar = () => {
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between h-16">
           <a href="#home" className="font-display font-black text-xl tracking-tight text-primary">
-            EXACT<span className="text-accent"> DISPATCHER</span>
+            BRAVO<span className="text-accent"> DISPATCH</span>
           </a>
 
           {/* Desktop */}
