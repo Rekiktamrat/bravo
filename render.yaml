@@ -1,0 +1,17 @@
+services:
+  # Static Site
+  - type: web
+    name: bravo-dispatch
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: ./dist
+    routes:
+      - route: /*/*
+        directory: /
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+    headers:
+      - path: /*
+        headers:
+          Cache-Control: no-cache
