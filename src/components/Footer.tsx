@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-10 mb-10">
           <div>
             <h3 className="font-display font-black text-xl mb-4">
-              BRAVO<span className="text-accent"> DISPATCH</span>
+              VELOSO<span className="text-accent"> TRANSPORT</span>
             </h3>
             <p className="text-primary-foreground/60 text-sm leading-relaxed">
               Full-service truck dispatching company helping owner-operators and small carriers maximize their revenue.
@@ -36,7 +36,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/60">
                 <Mail className="h-4 w-4 text-accent" />
-                info@bravo-dispatch.com
+                info@velosotransport.com
               </li>
               <li className="flex items-start gap-2 text-primary-foreground/60">
                 <MapPin className="h-4 w-4 text-accent flex-shrink-0 mt-0.5" />
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-6 text-center text-primary-foreground/40 text-sm">
-          © {new Date().getFullYear()} Bravo LLC. All rights reserved.
+          © {new Date().getFullYear()} VELOSO TRANSPORT LLC. All rights reserved.
         </div>
       </div>
     </footer>
