@@ -46,7 +46,7 @@ const Navbar = () => {
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between h-16">
           <a href="#home" className="font-display font-black text-xl tracking-tight text-primary">
-            VELOSO<span className="text-accent"> TRANSPORT</span>
+            VELOSO<span className="text-accent"> Dispatcher </span>
           </a>
 
           {/* Desktop */}

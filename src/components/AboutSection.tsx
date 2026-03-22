@@ -44,7 +44,7 @@ const AboutSection = () => {
               Full-Service Truck Dispatching
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Exact Dispatcher LLC is a <strong className="text-foreground">"Full Service"</strong> truck dispatching company that handles all of the back-office work so you can compete with the large fleets. We make it affordable for small carriers to access professional dispatch services.
+              VELOSO Dispatcher LLC is a <strong className="text-foreground">"Full Service"</strong> truck dispatching company that handles all of the back-office work so you can compete with the large fleets. We make it affordable for small carriers to access professional dispatch services.
             </p>
 
             <ul className="space-y-4">
